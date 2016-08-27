@@ -6,9 +6,7 @@
 
 int main(void)
     {
-        string name;
-        printf("Enter your name: ");
-        name = GetString();
+        string name = GetString();
         
         printf("%c", toupper(name[0]));
         
